@@ -1,10 +1,12 @@
+#check if a user can only see one stash project at a given URL
+
 import stashy
 
 #URL and account variables
 
-url = "https://stash.servicerocket.com"
-userName = "testuser"
-userPassword = "1ServiceRocket2$$!!"
+url = "put your URL here"
+userName = "put your user here"
+userPassword = "put your user password here"
 
 #Connection string
 stash = stashy.connect(url, userName, userPassword)
